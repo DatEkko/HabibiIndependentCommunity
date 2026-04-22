@@ -1,29 +1,28 @@
-"use client";
 import { FaFacebookF, FaTiktok, FaDiscord } from "react-icons/fa";
+
+const socialLinks = [
+    {
+        id: "facebook",
+        icon: <FaFacebookF />,
+        link: "https://www.facebook.com/LEXYWRESTLINGNEWSINVN",
+        label: "Fanpage",
+    },
+    {
+        id: "tiktok",
+        icon: <FaTiktok />,
+        link: "https://www.tiktok.com/@lexydammedauvat",
+        label: "TikTok",
+    },
+    {
+        id: "discord",
+        icon: <FaDiscord />,
+        link: "https://discord.com/invite/zwxuxwXR4",
+        label: "Discord",
+    },
+];
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
-
-    const socialLinks = [
-        {
-            id: "facebook",
-            icon: <FaFacebookF />,
-            link: "https://www.facebook.com/LEXYWRESTLINGNEWSINVN",
-            label: "Fanpage",
-        },
-        {
-            id: "tiktok",
-            icon: <FaTiktok />,
-            link: "https://www.tiktok.com/@lexydammedauvat",
-            label: "TikTok",
-        },
-        {
-            id: "discord",
-            icon: <FaDiscord />,
-            link: "https://discord.com/invite/zwxuxwXR4",
-            label: "Discord",
-        },
-    ];
 
     return (
         <footer className="bg-[#EBEBE3] border-t border-zinc-300 py-12">

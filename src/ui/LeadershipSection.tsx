@@ -48,21 +48,21 @@ const LeadershipSection = () => {
             }
         });
 
-        tl.from(".animate-title", {
-            opacity: 0,
-            y: 40,
+        tl.to(".animate-title", {
+            opacity: 1,
+            y: 0,
             duration: 1.2,
             ease: "power3.out"
         })
-            .from(".animate-img", {
-                opacity: 0,
-                y: 40,
+            .to(".animate-img", {
+                opacity: 1,
+                y: 0,
                 duration: 0.8,
                 ease: "power3.out"
             }, "-=1")
-            .from(".animate-info", {
-                opacity: 0,
-                y: 40,
+            .to(".animate-info", {
+                opacity: 1,
+                y: 0,
                 duration: 0.8,
                 ease: "power3.out"
             }, "-=0.4")
@@ -73,7 +73,7 @@ const LeadershipSection = () => {
         <section ref={container} className="py-20 overflow-hidden">
             <div className="container mx-auto max-w-7xl">
                 <div className="text-center mb-16 text-primary-text">
-                    <h2 className="animate-title text-3xl md:text-7xl font-black uppercase tracking-widest">
+                    <h2 className="animate-title opacity-0 translate-y-10 text-3xl md:text-7xl font-black uppercase tracking-widest">
                         Ban Điều Hành
                     </h2>
                     <div className="h-1 w-20 mx-auto mt-4"></div>
@@ -89,7 +89,7 @@ const LeadershipSection = () => {
                                 : "md:opacity-80 md:hover:opacity-100"}`}
                         >
                             {/* Card Ảnh */}
-                            <div className={`animate-img w-full mb-6 overflow-hidden relative group ${leader.isFounder
+                            <div className={`animate-img opacity-0 translate-y-10 w-full mb-6 overflow-hidden relative group ${leader.isFounder
                                 ? "border-2 border-primary-text shadow-xl"
                                 : "grayscale-20 hover:grayscale-0"
                                 }`}>
@@ -100,7 +100,6 @@ const LeadershipSection = () => {
                                         fill
                                         className="object-cover object-[center_10%] transition-transform duration-700 group-hover:scale-110"
                                         sizes="(max-width: 768px) 100vw, 33vw"
-                                        priority={leader.isFounder}
                                     />
                                 </div>
 
@@ -112,7 +111,7 @@ const LeadershipSection = () => {
                             </div>
 
                             {/* Thông tin */}
-                            <div className="animate-info text-center px-4">
+                            <div className="animate-info opacity-0 translate-y-10 text-center px-4">
                                 <h3 className={`text-primary-text mb-1 uppercase tracking-tight ${leader.isFounder
                                     ? "text-2xl font-black"
                                     : "text-lg font-bold"}`}>

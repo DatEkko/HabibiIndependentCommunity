@@ -47,22 +47,22 @@ const JoinUsSection: React.FC = () => {
                 start: "top 80%",
             },
         });
-        tl.from(".animate-header", {
-            y: 30,
-            opacity: 0,
+        tl.to(".animate-header", {
+            y: 0,
+            opacity: 1,
             duration: 0.8,
             ease: "power3.out",
         })
-            .from(".step-card", {
-                opacity: 0,
-                y: 40,
+            .to(".step-card", {
+                opacity: 1,
+                y: 0,
                 stagger: 0.2,
                 duration: 0.8,
                 ease: "power4.out",
             }, "-=0.4")
-            .from(".animate-button", {
-                scale: 0.8,
-                opacity: 0,
+            .to(".animate-button", {
+                scale: 1,
+                opacity: 1,
                 duration: 0.6,
                 ease: "power4.out",
             }, "-=0.6");
@@ -72,7 +72,7 @@ const JoinUsSection: React.FC = () => {
     return (
         <section ref={sectionRef} className="py-24 bg-[#EBEBE3] text-zinc-900">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-20 animate-header">
+                <div className="text-center mb-20 animate-header opacity-0 translate-y-8">
                     <h2 className="text-[11px] uppercase tracking-[0.5em] text-[#5865F2] mb-3 font-bold">
                         Habibi Onboarding
                     </h2>
@@ -83,7 +83,7 @@ const JoinUsSection: React.FC = () => {
 
                 <div className="steps-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
                     {steps.map((step) => (
-                        <div key={step.id} className="step-card group relative">
+                        <div key={step.id} className="step-card group relative opacity-0 translate-y-10">
                             <div className="h-full bg-[#FFFAF0] p-8 rounded-2xl border-b-4 border-transparent hover:border-[#5865F2] hover:shadow-[0_20px_40px_rgba(88,101,242,0.1)] transition-all duration-500">
                                 <span className="absolute top-4 right-6 text-5xl font-black text-[#5865F2]/20 group-hover:text-[#5865F2]/40 transition-colors">
                                     0{step.id}
@@ -104,7 +104,7 @@ const JoinUsSection: React.FC = () => {
                     ))}
                 </div>
 
-                <div className="mt-16 text-center animate-button">
+                <div className="mt-16 text-center animate-button opacity-0 scale-90">
                     <a
                         href="https://discord.com/invite/zwxuxwXR4"
                         target="_blank"
