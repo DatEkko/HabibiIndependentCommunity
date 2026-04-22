@@ -1,0 +1,26 @@
+[
+    {
+        "id": "support-1",
+        "name": "Mohamed Omar Tung",
+        "role": "Đại Tể Tướng",
+        "desc": "Đồng hành và hỗ trợ xây dựng nền tảng cộng đồng vững chắc.",
+        "image": "/images/characters/tung.png",
+        "isFounder": false
+    },
+    {
+        "id": "founder",
+        "name": "Amir Raheem Dat Al-Ekko",
+        "role": "Giáo hoàng tối cao",
+        "desc": "Người sáng lập và định hướng chiến lược phát triển bền vững cho cộng đồng.",
+        "image": "/images/characters/darwin.png",
+        "isFounder": true
+    },
+    {
+        "id": "support-2",
+        "name": "Phonix Reyan Al-Mistari",
+        "role": "Tổng Tham mưu",
+        "desc": "Chăm sóc thành viên và tổ chức các hoạt động kết nối ý nghĩa.",
+        "image": "/images/characters/phong.png",
+        "isFounder": false
+    }
+]
