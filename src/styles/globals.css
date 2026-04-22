@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "./scrollbar.css";
+@import "./fonts.css";
+
+:root {
+  --background: #EBEBE3;
+  --primary-text: #0f172a;
+  --highlight-text: #996515;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-primary-text: var(--primary-text);
+  --color-highlight-text: var(--highlight-text);
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-primary-text);
+    font-family: var(--font-montserrat);
+  }
+}
+
+
+

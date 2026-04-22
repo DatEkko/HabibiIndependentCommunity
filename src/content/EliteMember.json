@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Chờ bạn tham gia",
+        "role": "Trưởng ban Hành pháp",
+        "image": "/images/characters/member.webp"
+    },
+    {
+        "id": 2,
+        "name": "Chờ bạn tham gia",
+        "role": "Trưởng ban Lập pháp",
+        "image": "/images/characters/member.webp"
+    },
+    {
+        "id": 3,
+        "name": "Chờ bạn tham gia",
+        "role": "Trưởng ban Truyền thông",
+        "image": "/images/characters/member.webp"
+    },
+    {
+        "id": 4,
+        "name": "Chờ bạn tham gia",
+        "role": "Trưởng ban Tư pháp",
+        "image": "/images/characters/member.webp"
+    },
+    {
+        "id": 5,
+        "name": "Chờ bạn tham gia",
+        "role": "Trưởng ban Nội chính",
+        "image": "/images/characters/member.webp"
+    },
+    {
+        "id": 6,
+        "name": "Chờ bạn tham gia",
+        "role": "Trưởng ban Ngoại giao",
+        "image": "/images/characters/member.webp"
+    },
+    {
+        "id": 7,
+        "name": "Chờ bạn tham gia",
+        "role": "Trưởng ban Kỹ thuật",
+        "image": "/images/characters/member.webp"
+    },
+    {
+        "id": 8,
+        "name": "Chờ bạn tham gia",
+        "role": "Trưởng ban Tài chính",
+        "image": "/images/characters/member.webp"
+    }
+]
