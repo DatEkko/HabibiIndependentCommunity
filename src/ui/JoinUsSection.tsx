@@ -25,8 +25,8 @@ const steps = [
     },
     {
         id: 3,
-        title: "Threads 'Chính Phủ'",
-        desc: "Vào mục Threads, tìm 'Văn phòng chính phủ Habibi' để làm thủ tục cấp định danh.",
+        title: "Threads 'Đại sứ quán'",
+        desc: "Vào mục Threads, tìm 'Đại sứ quán Habibi' để làm thủ tục cấp định danh.",
         icon: <FaCodeBranch />,
     },
     {
