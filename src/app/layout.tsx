@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 import SmoothScroll from "@/util/SmoothScroll";
 
-const baseUrl = 'https://habibi-independent-community.vercel.app/';
+const baseUrl = 'https://habibi-independent-community.vercel.app';
 
 export const metadata = {
   title: 'Habibi Independent Community',
