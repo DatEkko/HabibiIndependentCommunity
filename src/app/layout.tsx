@@ -15,8 +15,8 @@ export const metadata = {
     images: [
       {
         url: `${baseUrl}/metadata-logo.png`, // Trỏ trực tiếp vào file trong thư mục public
-        width: 1200,
-        height: 630,
+        width: 821,
+        height: 727,
         alt: 'Habibi Community Logo',
       },
     ],
