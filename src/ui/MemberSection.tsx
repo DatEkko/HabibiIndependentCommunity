@@ -53,7 +53,7 @@ const MemberSection: React.FC = () => {
                                     src={member.image}
                                     alt={member.name}
                                     fill
-                                    className="object-cover grayscale-0 lg:grayscale-20 lg:group-hover:grayscale-0 transition-all duration-1000"
+                                    className="object-cover object-[center_10%] grayscale-0 lg:grayscale-20 lg:group-hover:grayscale-0 transition-all duration-1000"
                                     sizes="(max-width: 768px) 100vw, 25vw"
                                 />
 
