@@ -9,7 +9,7 @@
         "id": 2,
         "name": "Chờ bạn tham gia",
         "role": "Trưởng ban Lập pháp",
-        "image": "/images/characters/member.webp"
+        "image": "/images/characters/member.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "id": 4,
         "name": "Chờ bạn tham gia",
         "role": "Trưởng ban Tư pháp",
-        "image": "/images/characters/member.webp"
+        "image": "/images/characters/member.jpg"
     },
     {
         "id": 5,
@@ -37,14 +37,14 @@
     },
     {
         "id": 7,
-        "name": "Chờ bạn tham gia",
+        "name": "Huy Al-AnkaraMessi LachaRonaldo",
         "role": "Trưởng ban Kỹ thuật",
-        "image": "/images/characters/member.webp"
+        "image": "/images/characters/huy.png"
     },
     {
         "id": 8,
         "name": "Habibi Mesnaldo Al-Hansan",
         "role": "Trưởng ban Tài chính",
-        "image": "/images/characters/member.webp"
+        "image": "/images/characters/bao.webp"
     }
 ]
