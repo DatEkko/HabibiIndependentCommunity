@@ -2,49 +2,49 @@
     {
         "id": 1,
         "name": "Minkan Al-Belfy",
-        "role": "Trưởng ban Hành pháp",
+        "role": "Thành viên",
         "image": "/images/characters/bam.png"
     },
     {
         "id": 2,
         "name": "Mohammed Al-Elmsau",
-        "role": "Trưởng ban Lập pháp",
+        "role": "Thành viên",
         "image": "/images/characters/sau.png"
     },
     {
         "id": 3,
         "name": "Squidari Al-Amir",
-        "role": "Trưởng ban Truyền thông",
+        "role": "Thành viên",
         "image": "/images/characters/muc.png"
     },
     {
         "id": 4,
         "name": "Chờ bạn tham gia",
-        "role": "Trưởng ban Tư pháp",
+        "role": "Thành viên",
         "image": "/images/characters/member.jpg"
     },
     {
         "id": 5,
         "name": "Hungis Khalid Al-Tayyar",
-        "role": "Trưởng ban Nội chính",
+        "role": "Thành viên",
         "image": "/images/characters/hung.png"
     },
     {
         "id": 6,
         "name": "Bakhid Al-Muarikh",
-        "role": "Trưởng ban Ngoại giao",
+        "role": "Thành viên",
         "image": "/images/characters/bakhia.png"
     },
     {
         "id": 7,
         "name": "Huy Al-Ankara Messaldo",
-        "role": "Trưởng ban Kỹ thuật",
+        "role": "Thành viên",
         "image": "/images/characters/huy.png"
     },
     {
         "id": 8,
         "name": "Habibi Mesnaldo Al-Hansan",
-        "role": "Trưởng ban Tài chính",
+        "role": "Thành viên",
         "image": "/images/characters/bao.webp"
     }
 ]
