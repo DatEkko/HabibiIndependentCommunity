@@ -1,10 +1,10 @@
 [
     {
         "id": "support-1",
-        "name": "Mohamed Omar Tung",
-        "role": "Co-Founder",
-        "desc": "Đồng sáng lập Habibi Independent Community.",
-        "image": "/images/characters/tung.png",
+        "name": "Đang tuyển chọn",
+        "role": "Cục trưởng Cục Hành Pháp",
+        "desc": "Thi hành Gia pháp Habibi, phạt gậy nếu các thành viên có sai sót, được quyền phân công người thi hành thay.",
+        "image": "/images/characters/member.jpg",
         "isFounder": false
     },
     {
@@ -17,10 +17,10 @@
     },
     {
         "id": "support-2",
-        "name": "Phonix Reyan Al-Mistari",
-        "role": "Co-Founder",
-        "desc": "Đồng sáng lập Habibi Independent Community.",
-        "image": "/images/characters/phong.webp",
+        "name": "Đang tuyển chọn",
+        "role": "Cục trưởng Cục Thông Tin",
+        "desc": "Cung cấp thông tin, có quyền phân công các thành viên khác truyển tải nội dung thông tin, viết báo,...",
+        "image": "/images/characters/member.jpg",
         "isFounder": false
     }
 ]

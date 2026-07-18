@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "name": "Minkan Al-Belfy",
-        "role": "Thành viên",
-        "image": "/images/characters/bam.png"
+        "name": "Phonix Reyan Al-Mistari",
+        "role": "Co-Founder",
+        "image": "/images/characters/phong.webp"
     },
     {
         "id": 2,
-        "name": "Mohammed Al-Elmsau",
-        "role": "Thành viên",
-        "image": "/images/characters/sau.png"
+        "name": "Mohamed Omar Tung",
+        "role": "Co-Founder",
+        "image": "/images/characters/tung.png"
     },
     {
         "id": 3,
@@ -46,5 +46,17 @@
         "name": "Habibi Mesnaldo Al-Hansan",
         "role": "Thành viên",
         "image": "/images/characters/bao.webp"
+    },
+    {
+        "id": 9,
+        "name": "Minkan Al-Belfy",
+        "role": "Thành viên",
+        "image": "/images/characters/bam.png"
+    },
+    {
+        "id": 10,
+        "name": "Mohammed Al-Elmsau",
+        "role": "Thành viên",
+        "image": "/images/characters/sau.png"
     }
 ]
