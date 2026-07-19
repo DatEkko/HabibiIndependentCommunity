@@ -1,10 +1,10 @@
 [
     {
         "id": "support-1",
-        "name": "Đang tuyển chọn",
+        "name": "Hungis Khalid Al-Tayyar",
         "role": "Cục trưởng Cục Hành Pháp",
         "desc": "Thi hành Gia pháp Habibi, phạt gậy nếu các thành viên có sai sót, được quyền phân công người thi hành thay.",
-        "image": "/images/characters/member.jpg",
+        "image": "/images/characters/hung.png",
         "isFounder": false
     },
     {
@@ -17,10 +17,10 @@
     },
     {
         "id": "support-2",
-        "name": "Đang tuyển chọn",
+        "name": "Huy Al-Ankara Messaldo",
         "role": "Cục trưởng Cục Thông Tin",
         "desc": "Cung cấp thông tin, có quyền phân công các thành viên khác truyển tải nội dung thông tin, viết báo,...",
-        "image": "/images/characters/member.jpg",
+        "image": "/images/characters/huy.png",
         "isFounder": false
     }
 ]
